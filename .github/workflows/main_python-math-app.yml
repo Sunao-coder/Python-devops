@@ -34,6 +34,7 @@ jobs:
       
       - name: Test using the makefile
         run: |
+          cd Project
           make test
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
