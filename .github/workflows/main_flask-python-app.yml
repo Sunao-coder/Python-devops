@@ -26,7 +26,8 @@ jobs:
         run: |
           cd Project
           make init
-      - name: Test
+      
+      - name: Test using the makefile
         run: |
           make test
 
